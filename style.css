@@ -726,6 +726,21 @@ header .search-bar-container label:hover{
   color:var(--orange);
   font-size: 1.7rem;
 }
+/* .loader-container{
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loader-container.fade-out{
+  top: -120%;
+} */
 
 .contact .row{
   display: flex;
@@ -775,6 +790,7 @@ header .search-bar-container label:hover{
   text-align: center;
   overflow: hidden;
 }
+
 
 .footer{
   background:#333;

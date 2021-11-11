@@ -15,7 +15,15 @@ window.onscroll = () => {
   navbar.classList.remove('active');
   loginForm.classList.remove('active');
 }
+// function loader(){
+//   document.querySelector('.loader-container').classList.add('fade-out'); 
 
+// }
+// function fadeOut(){
+//   setInterval(loader, 5000);
+// }
+
+// window.onload = fadeOut();
 menu.addEventListener('click', () => {
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
@@ -89,3 +97,4 @@ var swiper = new Swiper(".brand-slider", {
     },
   },
 });
+
